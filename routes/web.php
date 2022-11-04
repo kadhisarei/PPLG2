@@ -9,6 +9,9 @@ use App\Http\Controllers\Arya_rachman;
 use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+use App\Http\Controllers\Jeffry;
+use App\Http\Controllers\Agung;
+
 
 
 /*
@@ -48,3 +51,4 @@ Route::get('/members/Andy', [Andy::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
 Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Hana.hana');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+Route::get('members/agung', [App\Http\Controllers\Agung::class, 'index'])->name('Agung.agung');
