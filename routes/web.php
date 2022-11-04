@@ -4,8 +4,12 @@ use App\Http\Controllers\Adri;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\Khairan_Nail;
+
+use App\Http\Controllers\Arya_rachman;
+
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -28,6 +32,9 @@ Route::get('/', function () {
 Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])->name('Khairan_nail.nail');
 Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
 Route::get('/members/bagas', [Adri::class, 'index']);
+Route::get('/members/Arya_rachman', [Arya_rachman::class, 'index']);
+
+
 
 Route::get('members/jeffry', [App\Http\Controllers\Jeffry::class, 'index'])->name('Jeffry.jeffry');
 
