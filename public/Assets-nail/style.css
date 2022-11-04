@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+	background: linear-gradient(to bottom , #ebecee, #fff);
+}
+
+.resume{
+	width: 800px;
+	background: #fff;
+	margin: 25px auto;
+	display: flex;
+}
+
+.left{
+	background: #ebecee;
+	width: 250px;
+	padding: 0 20px;
+	
+}
+
+
+
+.right{
+	width: calc(100% - 250px);
+}
+
+.Photo .img_holder{
+	text-align: center;
+	padding: 19px 0;
+}
+
+.Photo .img_holder img{
+	width: 200px;
+	border-radius: 30px;
+}
+
+.pb{
+	padding-bottom: 12px;
+}
+
+.title{
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	padding-bottom: 10px;
+	/* ganti warna font judul section */
+	color: #4c4d4f;
+	position: relative;
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.title:before{
+	content: "";
+	position: absolute;
+	top: 35px;
+	width: 50px;
+	height: 3px;
+	/* ganti warna garis bawah title */
+	background: #4c4d4f;
+}
+
+.left .icon{
+	font-size: 20px;
+	/* ganti warna Icon Skill dan contact */
+	color: #4c4d4f;
+}
+
+.left .text{
+	/* ganti warna tex Skill dan contact */
+	color: #4c4d4f;
+	text-transform: uppercase;
+	font-size: 13px;
+}
+
+.contact .li_wrap{
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin-bottom: 15px;
+}
+
+.contact .li_wrap .icon{
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 15px;
+}
+
+.contact .li_wrap .text{
+	width: calc(100% - 50px);
+	word-break: break-word;
+}
+
+.skills ul,
+.hobbies ul{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skills .li_wrap,
+.hobbies .li_wrap{
+	width: 100px;
+	height: 100px;
+	margin-bottom: 15px;
+	border-radius: 15px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.skills .li_wrap{
+	/* ganti warna kotak background skill */
+	background: #fff;
+}
+
+.skills .li_wrap .text,
+.hobbies .li_wrap .text{
+	margin-top: 5px;
+}
+
+.hobbies .li_wrap{
+	/* ganti warna garis kotak Hobbies */
+	border: 2px solid #fff;
+}
+
+.hobbies .li_wrap .icon,
+.hobbies .li_wrap .text{
+	/* ganti warna text Hobbies */
+	color: #4c4d4f;
+}
+
+.hobbies .li_wrap:hover{
+	/* ganti warna ke 2 kotak Hobbies */
+	background: #fff;
+}
+
+.hobbies .li_wrap:hover .icon,
+.hobbies .li_wrap:hover .text{
+	color: #4c4d4f;
+}
+
+.header{
+	/* ganti warna background header */
+	background: #4c4d4f;
+	padding: 15px 30px;
+	/* ganti Font background header */
+	color: #fff;
+	height: 240px;
+	position: relative;
+}
+
+.Photo{
+	/* ganti background warna di box photo */
+	background: #4c4d4f;
+	width: 270px;
+	height: 240px;
+}
+.header .name{
+	font-size: 52px;
+	text-transform: uppercase;
+	font-weight: 700;
+	/* ganti Font Nama di header */
+	color: white;
+}
+
+.header .role{
+	font-weight: 300;
+	font-size: 20px;
+}
+
+.header .about{
+	margin-top: 20px;
+	line-height: 26px;
+}
+.name_role {
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.right_inner{
+	padding: 30px;
+	/* ganti warna font detail pekerjaan dan pendidikan */
+	color: #4c4d4f;
+}
+
+.right_inner .education{
+	margin-top: 30px;
+}
+
+.right_inner .li_wrap{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+    width: 125px;
+	/* ganti warna font tahun pekerjaan */
+    color: #4c4d4f;
+}
+
+.right_inner .li_wrap .info{
+	width: calc(100%  - 125px);
+	padding-left: 25px;
+	position: relative;
+}
+
+.right_inner .li_wrap .info_title{
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	/* ganti warna font title perkerjaan */
+	color: #4c4d4f;
+}
+
+.right_inner .li_wrap .info_com{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont{
+	margin-top: 15px;
+}
+
+.right_inner .li_wrap .info:before{
+	content: "";
+	position: absolute;
+	top: 3px;
+	left: 0;
+	width: 10px;
+	height: 10px;
+	background: #4c4d4f;
+	border-radius: 50%;
+}
+
+.right_inner .li_wrap .info:after{
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	width: 2px;
+	height: 90%;
+	background: #4c4d4f;
+}
