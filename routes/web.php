@@ -4,11 +4,17 @@ use App\Http\Controllers\Adri;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\Khairan_Nail;
-
+use App\Http\Controllers\Naillah;
 use App\Http\Controllers\Arya_rachman;
 use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+
+use App\Http\Controllers\Jeffry;
+use App\Http\Controllers\Agung;
+
+
+use App\Http\Controllers\Selvi;
 
 
 /*
@@ -48,4 +54,9 @@ Route::get('/members/Andy', [Andy::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
 Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Hana.hana');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+
+Route::get('members/agung', [App\Http\Controllers\Agung::class, 'index'])->name('Agung.agung');
 Route::get('members/Sulthan', [App\Http\Controllers\Sulthan::class, 'index'])->name('Sulthan.Sulthan');
+Route::get('members/naillah', [App\Http\Controllers\Naillah::class, 'naillah'])->name('Naillah.naillah');
+Route::get('members/selvi', [App\Http\Controllers\Selvi::class, 'index'])->name('Selvi.selvi');
+Route::get('members/miftah', [App\Http\Controllers\Ahmad_miftah::class, 'index'])->name('Ahmad_Miftah.miftah');
