@@ -18,4 +18,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+//buat route di sini
 Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])->name('Khairan_nail.nail');
+
+
