@@ -59,7 +59,7 @@
             </p>
         </div>
         <div class="mr-28 text-6xl font-bold font-mono">
-            <a href="../assets/CV.pdf">
+            <a href="{{ asset('adri1/pdf/CV.pdf') }}">
                 <span class="cool-link">Download</span><br>
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">Now</span><br>
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">-></span>
@@ -76,56 +76,56 @@
             <div class="flex flex-col h-[50vh] justify-evenly flex-wrap gap-x-44 w-2/4">
                 <div class="w-2/3 mt-8">
                     HTML :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring"
                             style="width: 90%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     CSS :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring2"
                             style="width: 80%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     JS :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring3"
                             style="width: 70%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     PHP :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring"
                             style="width: 90%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     Figma :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring2"
                             style="width: 80%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     Laravel :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring3"
                             style="width: 70%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     Tailwind CSS :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring2"
                             style="width: 80%"></div>
                     </div>
                 </div>
                 <div class="w-2/3 mt-8">
                     Deck Building :
-                    <div class="w-full bg-gray-200 rounded-full h-4 dark:bg-gray-700">
+                    <div class="w-full bg-gray-200 rounded-full h-4">
                         <div class="bg-purple-600 h-4 rounded-full dark:bg-purple-500 motion-safe:animate-bring3"
                             style="width: 70%"></div>
                     </div>
