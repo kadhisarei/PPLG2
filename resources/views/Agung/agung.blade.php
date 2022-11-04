@@ -155,7 +155,7 @@
             </div>
           </div>
           <div class="card-body px-3 py-2">
-            <p>make web designs that look attractive and make them assisted with figma, adobe photoshop.</p>
+            <p>make web designs that look attractive and make them assisted with figma, adobe photoshop</p>
           </div>
         </div>
       </div>
