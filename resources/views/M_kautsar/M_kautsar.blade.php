@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resume</title>
   <script src="https://unpkg.com/feather-icons"></script>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="{{asset('Assets-Rizal/style.css')}}">
 </head>
 
 <body>
@@ -15,7 +15,7 @@
     <div class="profile">
       <div class="profile_container">
         <div class="profile_profileImg">
-          <img src="./images/zal.jpg" alt="">
+          <img src="{{asset('Assets-Rizal/images/zal.jpg ')}}" alt="">
         </div>
         <div>
           <h1 class="profile_name">
