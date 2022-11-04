@@ -4,7 +4,7 @@ use App\Http\Controllers\Adri;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers;
 use App\Http\Controllers\Khairan_Nail;
-
+use App\Http\Controllers\Andy;
 
 /*
 |--------------------------------------------------------------------------
@@ -27,5 +27,7 @@ Route::get('/', function () {
 Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])->name('Khairan_nail.nail');
 Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
 Route::get('/members/bagas', [Adri::class, 'index']);
+Route::get('/members/Andy', [Andy::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
+
 
