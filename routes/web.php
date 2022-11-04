@@ -48,3 +48,4 @@ Route::get('/members/Andy', [Andy::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
 Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Hana.hana');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+Route::get('members/Sulthan', [App\Http\Controllers\Sulthan::class, 'index'])->name('Sulthan.Sulthan');
