@@ -9,6 +9,7 @@ use App\Http\Controllers\Arya_rachman;
 use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+use App\Http\Controllers\Selvi;
 
 
 /*
@@ -50,4 +51,4 @@ Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Ha
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
 Route::get('members/Sulthan', [App\Http\Controllers\Sulthan::class, 'index'])->name('Sulthan.Sulthan');
 Route::get('members/naillah', [App\Http\Controllers\Naillah::class, 'naillah'])->name('Naillah.naillah');
-
+Route::get('members/selvi', [App\Http\Controllers\Selvi::class, 'index'])->name('Selvi.selvi');
