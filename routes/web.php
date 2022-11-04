@@ -21,5 +21,6 @@ Route::get('/', function () {
 //buat route di sini
 Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])->name('Khairan_nail.nail');
 Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
+Route::get('members/rasya', [App\Http\Controllers\Rasya::class, 'index'])->name('Rasya.rasya');
 
 
