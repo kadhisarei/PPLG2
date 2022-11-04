@@ -2,7 +2,8 @@
 
 use App\Http\Controllers\Adri;
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers;
+use App\Http\Controllers\Khairan_Nail;p
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,4 +19,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/Ygo', [Adri::class, 'index']);
+
+//buat route di sini
+Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])->name('Khairan_nail.nail');
+Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
+Route::get('/members/bagas', [Adri::class, 'index']);
+
