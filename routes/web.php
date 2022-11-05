@@ -28,4 +28,5 @@ Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])-
 Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
 Route::get('/members/bagas', [Adri::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
+Route::get('members/deren', [App\Http\Controllers\Arya_daren::class, 'index'])->name('Arya_daren.deren');
 
