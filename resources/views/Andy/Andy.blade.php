@@ -16,7 +16,7 @@
         <!--left column starts-->
         <div class="left_col">
             <div class="left_col_1">
-                <img src="./assets/DSC00299.JPG" alt="profile_picture">
+                <img src="{{ asset('Assets-andy/DSC00299.JPG') }}" alt="profile_picture">
                 <p class="name">Andy Alphard Rahmana</p>
                 <p class="date">10 Desember, 2005</p>
             </div>
