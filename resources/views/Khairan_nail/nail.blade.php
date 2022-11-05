@@ -256,7 +256,7 @@
 										</div>
 										<div class="info">
 											<p class="info_title">
-												Middle School.
+												Junior High School.
 											</p>
 											<p class="info_com">
 												Islam Terpadu Putra Cendekia, Depok.
@@ -271,10 +271,10 @@
 										</div>
 										<div class="info">
 											<p class="info_title">
-												Junior High School.
+												Elementery School.
 											</p>
 											<p class="info_com">
-												Junior High School Putra Jaya, Depok.
+											  Putra Jaya, Depok
 											</p>
 										</div>
 									</div>

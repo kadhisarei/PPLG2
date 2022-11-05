@@ -1,1 +1,0 @@
-Ini tolong dihapus 
