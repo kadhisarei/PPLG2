@@ -9,12 +9,15 @@ use App\Http\Controllers\Arya_rachman;
 use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+use App\Http\Controllers\Samuel;
+
 use App\Http\Controllers\Aryo;
 use App\Http\Controllers\M_kautsar;
 use App\Http\Controllers\Winny;
 use App\Http\Controllers\Jeffry;
 use App\Http\Controllers\Agung;
 use App\Http\Controllers\Selvi;
+
 
 
 /*
@@ -58,6 +61,9 @@ Route::get('members/deren', [App\Http\Controllers\Arya_daren::class, 'index'])->
 
 Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Hana.hana');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+
+Route::get('members/samuel', [App\Http\Controllers\Samuel::class, 'index'])->name('Samuel.samuel');
+
 Route::get('members/winny', [App\Http\Controllers\Winny::class, 'index'])->name('Winny.winny');
 Route::get('members/agung', [App\Http\Controllers\Agung::class, 'index'])->name('Agung.agung');
 Route::get('members/Sulthan', [App\Http\Controllers\Sulthan::class, 'index'])->name('Sulthan.Sulthan');
@@ -71,4 +77,5 @@ Route::get('members/kevin', [App\Http\Controllers\Kevin::class, 'index'])->name(
 
 Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
 Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
+
 
