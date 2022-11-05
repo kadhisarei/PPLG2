@@ -9,6 +9,7 @@ use App\Http\Controllers\Arya_rachman;
 use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
+use App\Http\Controllers\Aryo;
 use App\Http\Controllers\M_kautsar;
 
 use App\Http\Controllers\Jeffry;
@@ -52,6 +53,7 @@ Route::get('members/jeffry', [App\Http\Controllers\Jeffry::class, 'index'])->nam
 Route::get('members/habibi', [App\Http\Controllers\Habibi::class, 'index'])->name('Habibi.habibi');
 Route::get('members/rizky', [App\Http\Controllers\Rizky_A::class, 'index'])->name('Rizky_A.rizky');
 Route::get('/members/Andy', [Andy::class, 'index']);
+Route::get('/members/aryo', [Aryo::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
 
 Route::get('members/deren', [App\Http\Controllers\Arya_daren::class, 'index'])->name('Arya_daren.deren');
