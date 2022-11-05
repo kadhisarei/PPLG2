@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title>CV Selvi</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('Assets-selvi/style.css') }}">
 	
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -73,6 +73,11 @@
 			<p>Youth organization (2022)</p>
 			<p class="p-4">
 				Community social organization, which grows and develops on the basis of social awareness and responsibility, and for the community, especially the younger generation
+			</p>
+			
+			<p>Behavior Change Ambassador (2022)</p>
+			<p class="p-4">
+				Together with Volunteer Ambassadors of the Behavior Change Movement throughout Indonesia to deal with the problem of Covid-19 transmission.
 			</p>
 
 			<br/>
