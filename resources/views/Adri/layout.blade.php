@@ -46,7 +46,7 @@
         }
     </script>
     <title>Document</title>
-    <link rel="stylesheet" href="{{ asset('adri1/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('Assets-Adri/css/main.css') }}">
     <style>
         ::-webkit-scrollbar {
             display: none;

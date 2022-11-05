@@ -33,3 +33,30 @@
     box-shadow: inset 0 -300px 0 0 white;
     color: rgb(139, 92, 246);
 }
+
+.cool-link3 {
+    box-shadow: inset 0 0 0 0 white;
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.cool-link3:hover{
+    box-shadow: inset 0 -60px 0 0 white;
+    color: rgb(139, 92, 246);
+}
+
+.cool-link4 {
+    box-shadow: inset 0 -20px 0 0 rgb(139, 92, 246);
+    color: black;
+    margin: 0 -.25rem;
+    padding: 0 .25rem;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+}
+
+.cool-link4:hover{
+    box-shadow: inset 0 -60px 0 0 white;
+    color: rgb(139, 92, 246);
+    z-index: -1;
+}
