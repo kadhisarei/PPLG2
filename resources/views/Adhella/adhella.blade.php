@@ -20,7 +20,7 @@
 
 		<div class="info">
 			<p class="heading">Info</p>
-			<p class="p1"><span class="span1"><img src="{{asset('assetadhella/location.png')}}"></span>Address<span> <br>Cilangkap, RT03/RW17, Tapos, Kota Depok</span></p>
+			<p class="p1"><span class="span1"><img src="{{asset('assetadhella/location.png')}}"></span>Address<span> <br>Depok</span></p>
 			<p class="p1"><span class="span1"><img src="{{asset('assetadhella/call.png')}}"></span>Phone<span> <br>+62 858 1366 5382</span></p>
 			<p class="p1"><span class="span1"><img src="{{asset('assetadhella/mail.png')}}"></span>Email<span> <br>adhellnilamm@gmail.com</span></p>
 		</div>

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title></title>
+	<title>CV</title>
 	<link rel="stylesheet" type="text/css" href="{{ asset('assethn/style.css') }}">
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
@@ -51,11 +51,11 @@
 		<div class="pendidikan">
 			<h2>EDUCATION</h2>
 			<ul>
-				<li>2013-1019</li>
+				<li>2013-2019</li>
 				<p>4 Elementary School</p>
-				<li>2019-1021</li>
+				<li>2019-2021</li>
 				<p>11 Junior High School</p>
-				<li>2021-1023</li>
+				<li>2021-2023</li>
 				<p>TB Vocational High School</p>
 			</ul>
 		</div>
