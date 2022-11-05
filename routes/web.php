@@ -77,5 +77,7 @@ Route::get('members/kevin', [App\Http\Controllers\Kevin::class, 'index'])->name(
 
 Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
 Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
+Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei.rei');
+
 
 
