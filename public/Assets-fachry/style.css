@@ -1,0 +1,562 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Do+Hyeon&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+body {
+    margin : 0 ;
+    background: #333646;
+    font-family: 'Poppins', Halvetica, sans-serif;
+    color: #ebebec;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+  ::-webkit-scrollbar {
+    width: 3px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #111;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #ebebec;
+    border-radius: 10px;
+  }
+  
+
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #ebebec;
+    transition: 0.3s;
+}
+
+p {
+    color: #b7b7bc;
+    font-size: 0.9em;
+    font-wight: 300;
+    line-height: 30px;
+    margin: 1em 0;
+}
+
+b {
+    color: #fff;
+}
+
+small {
+    color: #b7b7bc;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    margin : 0.5em 0 0.9em 0;
+    font-size: 1.6em;
+    font-wight: 500;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background: #333646;
+    min-height: 700px;
+    position: relative;
+}
+
+section, footer, header {
+    padding: 4em 2em;
+}
+
+.logo {
+    color: #ffc25c;
+}
+
+.main-image {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-60%);
+    width:100%;
+    max-width: 500px;
+    filter: drop-shadow( 0 0 25px rgba( 0, 0, 0, 0.5));
+    opacity : .5;
+}
+
+nav,
+.header-body,
+.about .container {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    align-items: start;
+    position: relative;
+}
+
+nav {
+    z-index: 9;
+}
+
+nav li {
+    padding : 0.5em 0;
+    display : inline-block;
+    margin-right: 1.5em;
+}
+
+nav a:not(.logo){
+    font-size : 1.5em;
+    font-wight: 500;
+    color: #b7b7bc;
+}
+
+nav a:hover {
+    color:#ebebec;
+}
+
+nav li .active {
+    color : #ebebec;
+    position: relative;
+
+}
+
+nav .active::before {
+    content: '';
+    background : #ffc25c;
+    width : 8px;
+    height : 8px;
+    border-radius: 50%;
+    position:absolute;
+    bottom: -0.8em;
+    left: 50%;
+    transform: tranlateX(-50%);
+}
+
+.logo img {
+    width: 3.6em;
+    height : 3.6em;
+}
+
+.menu-btn {
+    font-size: 1.5em;
+    color : #ebebec;
+    display: none;
+    cursor: pointer;
+}
+
+/* JS */
+
+nav .menu-open {
+    height : 14.5em;
+}
+
+/* header body */
+
+.header-body {
+    margin-top: 5em;
+}
+
+.tittle {
+    font-size : 5em;
+    position: relative;
+    line-height: 1em;
+    margin-bottom : 1.5em;
+}
+
+.tittle::before {
+    content: '';
+    background: #ffc25c;
+    position: absolute;
+    left: 0;
+    bottom: -0.5em;
+    width: 5rem;
+    height: 0.5rem;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 1.5em;
+}
+
+.social a {
+    font-size : 1.3em;
+    color: #ebebec;
+}
+
+.social a:hover {
+    color: #ffc25c;
+}
+
+.main-link {
+    display: inline-block;
+    color: #ffc25c;
+    margin-top: 2.5em;
+    font-size: 1.2em;
+}
+
+.main-link:hover {
+    color: #fff;
+}
+
+.main-link span {
+    margin-right: 0.8em;
+}
+
+.main-link span,
+.main-link i {
+    /* text-decoration: underline; */
+}
+
+/* About */
+
+.about {
+    background : #252734;
+}
+
+.stats, stats > div {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.stats h1 {
+    font-size : 4em;
+    font-weight: 500;
+    color: #ffc25c;
+    margin-right: 0.3em;
+}
+
+/* project */
+
+.projects {
+    background: linear-gradient(
+        0deg,
+        #333646 0%,
+        #333646 50%,
+        #252734 0%,
+        #252734 50%
+    );
+}
+
+.panels {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panels > div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 1em;
+    padding: 9em 3em 3em 3em;
+    background: #414556;
+    filter: drop-shadow( 0 0 15px rgba( 0, 0, 0, 0.3));
+
+    transition: 0.4s;
+}
+
+.panels > div:hover {
+    background: #ffaf29;
+}
+
+.panels .icon {
+    align-self: start;
+    font-size : 1.6em;
+    margin-right: 1.8rem;
+    line-height: 2.5rem;
+}
+
+.panels a {
+    font-size : 0.9em;
+    font-weight: 300;
+}
+
+.panels a:hover {
+    text-decoration: underline;
+}
+
+/* Sponsor */
+
+.sponsor {
+    background: #333646;
+}
+
+.brands-container {
+    max-width: 800px;
+}
+
+.brands {
+    text-align: center;
+    width: 100%;
+}
+
+.brands img {
+    width: 9em;
+    margin : 1em;
+    display: inline-block;
+    filter : grayscale(80%);
+}
+
+/* Portofolio */
+
+.portofolio {
+    background: #333646;
+}
+
+.portofolio .container {
+    display: flex ;
+    justify-content : space-between;
+    align-items: flex-start;
+}
+
+.col {
+    width: 23em;
+}
+
+.col > div, .col .card {
+    margin-bottom: 8em;
+}
+
+.col .last-card {
+    margin-bottom: 0;
+}
+
+.card {
+    /* background: #252734; */
+    position: relative;
+    height: 24em;
+    margin-top: 5em;
+    transition: .3s;
+}
+
+.card > div {
+    padding: 1.5em;
+    display: flex;
+    justify-content : space-between;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+.card img {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 0;
+    opacity: .7;
+    filter: drop-shadow( 0 0 15px rgba( 0, 0, 0, 0.5));
+}
+
+.portofolio 
+.card-link:hover .card {
+    transform : translateY(-3em);
+    
+}
+
+/* blog */
+
+.blog {
+    background: #252734;
+}
+
+.blog .container,
+.testimonials .container,
+.contact .container {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    grid-gap : 2em;
+}
+
+.post {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 3em 0;
+    border-bottom: 1px #333646 solid ;
+
+}
+
+.post:nth-child(1){
+    padding-top: 0;
+}
+
+.post .main-link {
+    margin: 0;
+}
+
+.post h3 {
+    margin: 0 3em;
+    text-align: center;
+}
+
+.testimonials {
+    background: #252734;
+}
+
+.testimonial {
+    display: flex ;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    min-height: 23em;
+}
+
+.testimonials img {
+    width: 25em;
+    height: 23em;
+    object-fit: cover ;
+    background-position: center;
+    opacity: .7;
+}
+
+.pagination li {
+    background: #333646;
+    width: 4.5em;
+    height:  0.5em;
+    margin-right: 1.5em;
+    display: inline-block;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.pagination .pag-active{
+    background: #ffc25c
+}
+
+/* Contact */
+
+.contact {
+    background; #333646;
+}
+
+form {
+    justify-self : right;
+}
+
+form button {
+    cursor: pointer;
+}
+
+form button , input {
+    background: none;
+    border: none;
+}
+
+input {
+    color : #fff;
+    font-size : 1.2em;
+    width: 100%;
+    padding: 2em 0;
+}
+
+input:not(.mail-content){
+    border-bottom: 1px #414556 solid;
+
+}
+
+input::placeholder {
+    color: #fff;
+    font-wight: 600;
+}
+
+input:focus {
+    outline: none;
+}
+
+form .main-link {
+    margin: 0;
+}
+
+.attach {
+    color : #b7b7bc;
+    margin-right: 0.6em;
+    font-size : 1.2em;
+}
+
+.input-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mail-content {
+    width: 80%;
+}
+
+/* footer  */
+
+footer {
+    background: #333646;
+    text-align: center ;
+}
+
+footer .logo img {
+    width: 8em;
+    height: 8em;
+}
+
+foooter p {
+    margin-bottom: 3em;
+}
+
+
+.chart {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 15px;
+    width: 120px;
+    margin-bottom: 10px;
+}
+    .chart span {
+        /* You can modify the value below to change the distance between the percentage number and the bar */
+        margin-left: 5px;
+        color: #fff;
+        font-weight: bolder;
+    }
+
+.bar {
+    /* You can modify the total time used for the animation here */
+    animation: load 3s normal forwards;
+    /* 
+    Add a little spice by having a shadow below the bar.
+    Feel free to comment out this line below to have an even LITE version :D 
+    */
+    box-shadow: 0 10px 40px -10px #fff;
+
+    border-radius: 100px;
+    background: #fff;
+    height: 15px;
+    width: 0;
+} 
+
+@keyframes load {
+    0% {
+        width: 0;
+    }
+    100% {
+        /* You need to change the percentage below to match the value in the corresponding <span> */
+        width: 68%;
+    }
+}
+
+.user-text {
+    font-weight: 400;
+    font-size: 17px;
+}

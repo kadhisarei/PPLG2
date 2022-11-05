@@ -69,4 +69,6 @@ Route::get('members/miftah', [App\Http\Controllers\Ahmad_miftah::class, 'index']
 Route::get('members/radit', [App\Http\Controllers\Raditya::class, 'index'])->name('Raditya.radit');
 Route::get('members/kevin', [App\Http\Controllers\Kevin::class, 'index'])->name('Kevin.kevin');
 
+Route::get('members/l', [App\Http\Controllers\Fachry::class, 'lex'])->name('Fachry.index');
+Route::get('members/yudiya', [App\Http\Controllers\M_yudiya::class, 'index']);
 
