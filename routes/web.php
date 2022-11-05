@@ -61,6 +61,8 @@ Route::get('members/deren', [App\Http\Controllers\Arya_daren::class, 'index'])->
 
 Route::get('members/hana', [App\Http\Controllers\Hana::class, 'hana'])->name('Hana.hana');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+Route::get('members/bagus', [App\Http\Controllers\Bagus::class, 'index'])->name('Bagus.bagus');
+
 
 Route::get('members/samuel', [App\Http\Controllers\Samuel::class, 'index'])->name('Samuel.samuel');
 
