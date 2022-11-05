@@ -29,7 +29,7 @@ use App\Http\Controllers\Sayiddina_Farhan;
 |
 | Here is where you can register web routes for your application. These
 | routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| contains the "web" middleware group. Now create something great!`
 |
 */
 
@@ -58,6 +58,7 @@ Route::get('/members/aryo', [Aryo::class, 'index']);
 Route::get('members/siti', [App\Http\Controllers\Siti::class, 'index'])->name('Siti.siti');
 Route::get('members/deren', [App\Http\Controllers\Arya_daren::class, 'index'])->name('Arya_daren.deren');
 Route::get('members/varel', [App\Http\Controllers\Varel::class, 'index'])->name('Varel.varel');
+Route::get('members/bagus', [App\Http\Controllers\Bagus::class, 'index'])->name('Bagus.bagus');
 Route::get('members/samuel', [App\Http\Controllers\Samuel::class, 'index'])->name('Samuel.samuel');
 Route::get('members/winny', [App\Http\Controllers\Winny::class, 'index'])->name('Winny.winny');
 Route::get('members/agung', [App\Http\Controllers\Agung::class, 'index'])->name('Agung.agung');
