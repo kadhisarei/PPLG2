@@ -10,7 +10,7 @@ use App\Http\Controllers\Adhella;
 use App\Http\Controllers\Hana;
 use App\Http\Controllers\Andy;
 use App\Http\Controllers\Samuel;
-
+use App\Http\Controllers\Irsyaad;
 use App\Http\Controllers\Aryo;
 use App\Http\Controllers\M_kautsar;
 use App\Http\Controllers\Winny;
@@ -42,7 +42,7 @@ Route::get('members/nail', [App\Http\Controllers\Khairan_Nail::class, 'index'])-
 Route::get('members/sheyla', [App\Http\Controllers\Sheyla::class, 'index'])->name('Sheyla.sheyla');
 
 Route::get('members/rasya', [App\Http\Controllers\Rasya::class, 'index'])->name('Rasya.rasya');
-
+Route::get('members/irsyaad', [App\Http\Controllers\Irsyaad::class, 'index'])->name('Irsyaad.ichad');
 Route::get('/members/bagas', [Adri::class, 'index']);
 Route::get('/members/Arya_rachman', [Arya_rachman::class, 'index']);
 Route::get('members/adhella', [App\Http\Controllers\Adhella::class, 'index'])->name('Adhella.adhella');
