@@ -24,11 +24,11 @@
             <div class="mx-16">
                 <h2 class="text-violet-500">Hi, </h2>
                 <h2>I'm <span class="cool-link">Adri</span>, </h2>
-                <h2>an Aspiring Student.</h2>
+                <h2>an <span class="cool-link4">Aspiring</span> <span class="cool-link3">Student</span><span class="text-violet-500">.</span></h2>
             </div>
         </div>
 
-        <img src="{{ asset('adri1/img/Dera.png') }}" alt="" class="w-1/2">
+        <img src="{{ asset('Assets-Adri/img/Dera.png') }}" alt="" class="w-1/2">
     </main>
 
     <section class="relative h-[50vh] mt-36 flex ">
@@ -59,7 +59,7 @@
             </p>
         </div>
         <div class="mr-28 text-6xl font-bold font-mono">
-            <a href="{{ asset('adri1/pdf/CV.pdf') }}">
+            <a href="{{ asset('Assets-Adri/pdf/CV.pdf') }}">
                 <span class="cool-link">Download</span><br>
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">Now</span><br>
                 <span class="hover:font-thin hover:text-violet-500 transition-all ease-in-out">-></span>
@@ -140,17 +140,17 @@
 
         <div class="h-96 w-1/4 bg-slate-500 absolute left-16 top-24 overflow-hidden">
             <h3 class="absolute z-40 left-7 top-7 text-4xl text-white">Hello.</h3>
-            <img src="{{ asset('adri1/img/Wall.jpg') }}" alt="" class="brightness-75">
+            <img src="{{ asset('Assets-Adri/img/Wall.jpg') }}" alt="" class="brightness-75">
         </div>
 
         <div class="h-96 w-1/4 bg-slate-500 absolute top-24 overflow-hidden">
             <h3 class="absolute z-40 left-7 top-7 text-4xl text-white">Hello.</h3>
-            <img src="{{ asset('adri1/img/Wall.jpg') }}" alt="" class="brightness-75">
+            <img src="{{ asset('Assets-Adri/img/Wall.jpg') }}" alt="" class="brightness-75">
         </div>
 
         <div class="h-96 w-1/4 bg-slate-500 absolute right-16 top-24 overflow-hidden">
             <h3 class="absolute z-40 left-7 top-7 text-4xl text-white">Hello.</h3>
-            <img src="{{ asset('adri1/img/Wall.jpg') }}" alt="" class="brightness-75">
+            <img src="{{ asset('Assets-Adri/img/Wall.jpg') }}" alt="" class="brightness-75">
         </div>
     </section>
 
@@ -188,7 +188,7 @@
 
     </section>
 
-    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900">
+    <footer class="p-4 bg-white sm:p-6 dark:bg-gray-900 font-mono">
         <div class="md:flex md:justify-between">
             <div class="mb-6 md:mb-0">
                 <a class="flex items-center">
