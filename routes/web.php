@@ -70,4 +70,8 @@ Route::get('members/naillah', [App\Http\Controllers\Naillah::class, 'naillah'])-
 Route::get('members/selvi', [App\Http\Controllers\Selvi::class, 'index'])->name('Selvi.selvi');
 Route::get('members/radit', [App\Http\Controllers\Raditya::class, 'index'])->name('Raditya.radit');
 Route::get('members/miftah', [App\Http\Controllers\Ahmad_miftah::class, 'index'])->name('Ahmad_Miftah.miftah');
+
 Route::get('members/dimas', [App\Http\Controllers\Dimas::class, 'index'])->name('Dimas.dimas');
+
+Route::get('members/rei', [App\Http\Controllers\Rei::class, 'index'])->name('Rei.rei');
+
